@@ -23,3 +23,41 @@ header{
 }
 
  /* section 1 */
+
+ .section1{
+    /* width: 90%;
+    height: 716px;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid blue; */
+ }
+ .relativ{
+    position: relative;
+    width: 90%;
+    height: 716px;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid blue;
+   
+ }
+ .section_img{
+    width: 100%;
+    height: 100%;
+ }
+ .section_text{
+    align-items: center;
+    width: 355px;
+    height: 89px;
+    color: #fdf50e;
+    font-size: 24px;
+    position: absolute;
+    top: 319px;
+    right: 420px;
+    text-align: center;
+   
+    
+    
+    
+
+   
+ }
