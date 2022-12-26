@@ -54,10 +54,85 @@ header{
     top: 319px;
     right: 420px;
     text-align: center;
-   
-    
-    
-    
-
-   
  }
+    /* <!-- სექცია 2 --> */
+
+    .section2{
+    width: 90%;
+    border: 3px solid yellow;
+    margin: 0 auto;
+    margin-top: 155px;
+
+    }
+    h2{
+        font-size: 28px;
+        padding-bottom: 70px;
+    }
+    .cards{
+        width: 100%;
+        height: 487px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .card{
+        width: 23.36%;
+        background-color: #ffffff;
+        border-radius: 10px;
+       
+    }
+    .img_section2{
+        width: 165;
+        height: 160;
+        padding: 30px 56px 111px 55px
+    
+    }
+    .weight{
+        display: flex;
+        width: 217px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 75px;
+        
+    }
+    .card-text{
+        width: 105px;
+        height: 35px;
+        background-color: #f8f8f8;
+        border-radius: 5px;
+    }
+    .card-text1{
+        width: 105px;
+        height: 35px;
+        background-color: #e7e7e7;
+        border-radius: 5px;
+    }
+    .price{
+        display: flex;
+        width: 217px;
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-left: 32px;
+    }
+    .card-text2{
+        font-size: 24px;
+        color: #f5621f;
+    }
+    .fa-cart-shopping{
+        width: 34px;
+        height: 34px;
+        background-color: #74b42c;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    
+    .card-text3{
+        font-size: 24px;
+        color: #111111;
+    }
+
+ /* footer */
+f
