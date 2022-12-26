@@ -3,11 +3,16 @@
     max-width: 1366px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid red;
+    padding-top: 179px;
+    /* border: 2px solid red; */
     background-color:gainsboro 
+    
+    
+    
 }
 header{
-    width: 100%;
+    max-width: inherit;
+    width: inherit;
     height: 110px;
     display: flex;
     align-items: center;
@@ -16,6 +21,10 @@ header{
     padding-left: 152px;
     padding-right: 161px;
     border-radius: 0 0 25px 25px; 
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }  
 .header_icons{
     display: flex;
@@ -24,21 +33,13 @@ header{
 
  /* section 1 */
 
- .section1{
-    /* width: 90%;
-    height: 716px;
-    margin: 0 auto;
-    position: relative;
-    border: 3px solid blue; */
- }
  .relativ{
     position: relative;
     width: 90%;
     height: 716px;
     margin: 0 auto;
     position: relative;
-    border: 3px solid blue;
-   
+    /* border: 3px solid blue; */
  }
  .section_img{
     width: 100%;
@@ -59,7 +60,7 @@ header{
 
     .section2{
     width: 90%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     margin: 0 auto;
     margin-top: 155px;
 
@@ -135,4 +136,35 @@ header{
     }
 
  /* footer */
-f
+
+ footer{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 172px;
+    margin-left: 87px;
+    margin-right: 75px;
+    
+    
+ }
+ .footer_div{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .contact{
+   width: 177px;
+   font-size: 12px; 
+   /* border: 2px solid yellow; */
+   margin: 20px auto;
+   
+   
+ }
+.contact_satauri{
+    font-size: 14px;
+    margin-bottom: 44px;
+}
+.contact2{
+   margin-top: 26px;
+   margin-bottom: 25px;
+}
